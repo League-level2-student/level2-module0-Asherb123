@@ -11,7 +11,8 @@ public static void main(String[] args) {
 	Robot[] robots= new Robot [5];
 	//3. use a for loop to initialize the robots.
 	for (int i = 0; i < robots.length; i++) {
-		robots [i] = new Robot(60,60);
+		robots [i] = new Robot(150*i+100,540);
+		
 		
 	}
 	//4. make each robot start at the bottom of the screen, side by side, facing up
